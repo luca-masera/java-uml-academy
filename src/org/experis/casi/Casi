@@ -1,0 +1,17 @@
+-Primo caso d’uso: Gestione dei corsi
+Attore principale: Amministratore
+Precondizioni: L’amministratore è autenticato e autorizzato.
+Flusso: L’amministratore può creare, modificare, visualizzare e cancellare i corsi.
+Ogni corso ha un titolo, una descrizione, una data di inizio e fine, e una lista di partecipanti.
+
+-Secondo caso d’uso: Gestione degli studenti
+Attore principale: Amministratore
+Precondizioni: L’amministratore è autenticato e autorizzato.
+Flusso: L’amministratore può aggiungere, modificare, visualizzare e rimuovere gli studenti.
+Ogni studente ha un nome, un cognome, un indirizzo email, e una lista di corsi a cui è iscritto.
+
+-Terzo caso d'uso: Iscrizione ai corsi
+Attore principale: Studente
+Precondizioni: Lo studente è autenticato.
+Flusso: Lo studente può visualizzare la lista dei corsi disponibili e iscriversi a un corso.
+Lo studente può anche annullare l’iscrizione a un corso a cui si è precedentemente iscritto.
